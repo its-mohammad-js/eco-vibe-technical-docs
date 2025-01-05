@@ -14,11 +14,6 @@ The user experience in Eco Vibe is centered around creating a flexible environme
 
 **Discover EcoVibe**: **[EcoVibe.com](https://its-mohammad-js.github.io/EcoVibe/)**
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
 ## Who is This Documentation For?
 
 This documentation is designed to enhance the development experience and aids in understanding the project structure by providing insights into the core aspects of the project, such as the following:

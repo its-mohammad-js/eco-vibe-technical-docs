@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Eco Vibe",
+  tagline: "Redefining Online Shopping",
+  favicon: "img/logo.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -76,21 +76,30 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Eco Vibe",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "Logo",
+          src: "img/logo.png",
         },
         items: [
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            to: "https://its-mohammad-js.github.io/EcoVibe/",
+            label: "Discover Eco Vibe",
+            position: "left",
+          },
+          {
+            to: "https://www.linkedin.com/in/mohammadarab-frontend/",
+            label: "Linkedin",
+            position: "left",
+          },
+          {
+            href: "https://github.com/its-mohammad-js/EcoVibe",
             label: "GitHub",
             position: "right",
           },
@@ -109,19 +118,19 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Stay in Touch",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Github",
+                href: "https://github.com/its-mohammad-js/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Linkedin",
+                href: "https://www.linkedin.com/in/mohammadarab-frontend/",
               },
               {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "telegram",
+                href: "https://t.me/DevWeb23333",
               },
             ],
           },
@@ -129,17 +138,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "mohammadreactjs@gmail.com",
+                to: "/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "+98-9396356829",
+                href: "/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2025 Eco Vibe.`,
       },
       prism: {
         theme: prismThemes.github,
