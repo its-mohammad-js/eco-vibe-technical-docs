@@ -15,7 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://its-mohammad-js.github.io/eco-vibe-technical-docs/",
+  url: "/eco-vibe-technical-docs/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
