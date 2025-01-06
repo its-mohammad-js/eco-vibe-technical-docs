@@ -115,3 +115,11 @@ The search modal, which provides access to all products and main sellers on the 
 The main parent component is the **Quick Search Modal**, where the details of products and sellers are rendered.
 
 ### quick access menu
+
+One of the most notable and important features of the application is the Quick Access Menu, which provides easy and precise access to information for both user types. It is designed to be useful for both sellers and customers.
+
+**Quick access menu**: **[Code](https://github.com/its-mohammad-js/EcoVibe/tree/main/src/layout/Navbar/modals/Quick%20Access%20Menu)**
+
+Up to this point, the necessary concepts for understanding the overall layout have been explained. Despite the clear architecture of the application, after reading this document, you should have a better grasp of the project structure. It is worth mentioning that the class commonly used for large containers, and repeated throughout the application, is a Tailwind CSS class :
+
+<code><strong>mx-auto 2xl:max-w-screen-2xl</strong></code>
