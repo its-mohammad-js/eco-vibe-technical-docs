@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 ## Become a seller
 
 Users of any type can become sellers at any stage of the authentication process and take advantage of the seller features. In the following section, the entire process and all features related to sellers, as well as the seller's user experience and the interaction between the application and the server, will be thoroughly examined.
@@ -48,6 +52,8 @@ Adding and editing products is accessible through the **[add/edit products modal
 <li>**Final Step:** Uploading product images.</li>
 </ul>
 
+**Note:** All three stages of this process update a main form, which is managed using react-hook-form. Finally, the form data is saved as the product information.
+
 #### Remove Expired Products
 
 Products created by users expire every **12 hours** and are automatically deleted from both the storage and the database using the GitHub action **[remove expired products](https://github.com/its-mohammad-js/EcoVibe/blob/main/.github/workflows/RemoveExpiredProducts.yml)**. The main reason for the short lifespan of products added by users is the nature of the program, as all users can add products without any restrictions. To prevent the product content on the site from becoming cluttered, this time window has been set.
@@ -58,6 +64,12 @@ Adding products and personalizing them is not the stopping point of eco vibe. Al
 
 #### Stories Comments
 
+For maximum interaction between sellers and customers, liking and commenting on stories has been implemented. Since the story data is stored in the real-time database, these interactions happen in real-time, enhancing the user experience. Additionally, it's important to note that expired comments on the sellers' stories are deleted every 6 days to help maintain the integrity of the platform's content. **It is also worth noting that likes and story views are recorded for guest users as well.**
+
 #### Remove Expired Stories
 
+User-generated stories, along with their visual content, expire after 18 hours and are removed from both the database and storage to maintain the original structure and content of the site. This is done through the **[remove expired stories](https://github.com/its-mohammad-js/EcoVibe/blob/main/.github/workflows/removeExpiredStories.yml)** GitHub action.
+
 #### Stories Modal
+
+The view and UI of stories make up a significant part of the application. The logic of nested lists and the overall appearance of the component have been repeated in several parts of the app. For this reason, the **[stories modal](https://github.com/its-mohammad-js/EcoVibe/tree/main/src/common/UI%20elements/StoriesList)** component was designed and developed. By drawing inspiration from Instagram’s visual design, the aim was to provide users with the best possible user experience.
