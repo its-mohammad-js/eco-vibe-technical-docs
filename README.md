@@ -1,41 +1,11 @@
-# Website
+# Eco Vibe - E-Commerce Meets Social Media
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A comprehensive documentation has been created to help developers understand the project's key components, file structures, technologies used, and how various features are implemented. The documentation is designed to enhance the developer experience, making it easier to navigate and contribute to the project.
 
-### Installation
+**documentation**: [Eco Vibe Technical Docs](https://its-mohammad-js.github.io/eco-vibe-technical-docs/)
 
-```
-$ yarn
-```
+## About the Developer
 
-### Local Development
+The project was developed by [Mohammad Arab](https://www.linkedin.com/in/mohammadarab-frontend/), with focus on delivering a high-quality, user-friendly experience. The challenges included scaling the project for a relatively large platform tailored to a specific target audience, testing the project in realistic scenarios, configuring and synchronizing various components, and debugging the application based on user experience across both customer and seller profiles. Throughout the development, clean and modular coding principles were adhered to, ensuring an enhanced development experience while improving maintainability and scalability.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<strong>More about developer : https://its-mohammad-js.github.io/My-portfolio/</strong>
